@@ -2,4 +2,5 @@
 - hosts: all
   become: yes
   tasks:
-    - debug: msg=coucou  
+    - name: install nginx
+      package: name=nginx state=present
