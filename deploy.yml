@@ -3,4 +3,4 @@
   sudo: yes
   tasks:
     - name: install nginx
-      apt: name=nginx state=present
+      apt: name=nginx state=absent
