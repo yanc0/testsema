@@ -3,4 +3,4 @@
   sudo: yes
   tasks:
     - name: install nginx
-      apt: name=nginx-full state=present
+      apt: name=nginx-full state=present update_cache=yes
